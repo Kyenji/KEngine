@@ -1,4 +1,8 @@
-# 2D Game Enjine on c++
+# 2D Game Engine on c++
+``The project was made for the purpose of learning C++!``
 
 ## Libs in project
 - SFML
+
+## What games is the engine for?
+- Game type: 2D, Top Down.
