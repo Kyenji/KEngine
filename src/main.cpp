@@ -17,8 +17,8 @@ int main() {
             }
         }
 
-        window.clear(sf::Color::Black); //Background
-        window.display(); //Show window
+        window.clear(sf::Color::Black); // Clear the window with black color to start drawing a new frame
+        window.display(); // Display the rendered frame on screen
     }
 
     return 0;
