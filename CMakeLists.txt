@@ -9,7 +9,7 @@ find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System)
 
 set(SOURCES
     src/main.cpp
-    src/Core/Entity/entity.cpp
+    src/core/entity/entity.cpp
 )
 
 add_executable(app ${SOURCES})
