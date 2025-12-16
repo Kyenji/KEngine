@@ -20,4 +20,6 @@ int main() {
         window.clear(sf::Color::Black); //Background
         window.display();
     }
+
+    return 0;
 }
