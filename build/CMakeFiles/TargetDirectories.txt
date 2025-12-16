@@ -1,0 +1,3 @@
+/home/kyenji/prjcts/KEngine/build/CMakeFiles/app.dir
+/home/kyenji/prjcts/KEngine/build/CMakeFiles/edit_cache.dir
+/home/kyenji/prjcts/KEngine/build/CMakeFiles/rebuild_cache.dir

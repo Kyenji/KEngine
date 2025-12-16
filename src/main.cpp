@@ -18,7 +18,7 @@ int main() {
         }
 
         window.clear(sf::Color::Black); //Background
-        window.display();
+        window.display(); //Show window
     }
 
     return 0;

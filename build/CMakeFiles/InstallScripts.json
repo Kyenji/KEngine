@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kyenji/prjcts/KEngine/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
