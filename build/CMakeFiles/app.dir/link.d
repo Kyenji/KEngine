@@ -3,6 +3,7 @@ app: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/app.dir/src/main.cpp.o \
+  CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o \
   /usr/lib/libsfml-graphics.so.3.0.2 \
   /usr/lib/libsfml-window.so.3.0.2 \
   /usr/lib/libsfml-system.so.3.0.2 \
@@ -59,6 +60,8 @@ app: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
 CMakeFiles/app.dir/src/main.cpp.o:
+
+CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o:
 
 /usr/lib/libsfml-graphics.so.3.0.2:
 
