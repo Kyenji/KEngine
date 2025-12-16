@@ -3,8 +3,15 @@ project(ctest LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON) 
 
 find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System)
 
-add_executable(app src/main.cpp)
+set(SOURCES
+    src/main.cpp
+    src/Core/Entity/entity.cpp
+)
+
+add_executable(app ${SOURCES})
+
 target_link_libraries(app PRIVATE SFML::Graphics SFML::Window SFML::System)
