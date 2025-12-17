@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp" "CMakeFiles/app.dir/src/core/entity/entity.cpp.o" "gcc" "CMakeFiles/app.dir/src/core/entity/entity.cpp.o.d"
   "/home/kyenji/prjcts/KEngine/src/main.cpp" "CMakeFiles/app.dir/src/main.cpp.o" "gcc" "CMakeFiles/app.dir/src/main.cpp.o.d"
-  "/home/kyenji/prjcts/KEngine/src/utils/draw/draw.cpp" "CMakeFiles/app.dir/src/utils/draw/draw.cpp.o" "gcc" "CMakeFiles/app.dir/src/utils/draw/draw.cpp.o.d"
+  "/home/kyenji/prjcts/KEngine/src/utils/render/render.cpp" "CMakeFiles/app.dir/src/utils/render/render.cpp.o" "gcc" "CMakeFiles/app.dir/src/utils/render/render.cpp.o.d"
   "" "app" "gcc" "CMakeFiles/app.dir/link.d"
   )
 

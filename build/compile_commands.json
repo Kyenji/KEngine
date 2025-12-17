@@ -13,8 +13,8 @@
 },
 {
   "directory": "/home/kyenji/prjcts/KEngine/build",
-  "command": "/usr/bin/c++  -I/home/kyenji/prjcts/KEngine/src -std=gnu++20 -o CMakeFiles/app.dir/src/utils/draw/draw.cpp.o -c /home/kyenji/prjcts/KEngine/src/utils/draw/draw.cpp",
-  "file": "/home/kyenji/prjcts/KEngine/src/utils/draw/draw.cpp",
-  "output": "CMakeFiles/app.dir/src/utils/draw/draw.cpp.o"
+  "command": "/usr/bin/c++  -I/home/kyenji/prjcts/KEngine/src -std=gnu++20 -o CMakeFiles/app.dir/src/utils/render/render.cpp.o -c /home/kyenji/prjcts/KEngine/src/utils/render/render.cpp",
+  "file": "/home/kyenji/prjcts/KEngine/src/utils/render/render.cpp",
+  "output": "CMakeFiles/app.dir/src/utils/render/render.cpp.o"
 }
 ]

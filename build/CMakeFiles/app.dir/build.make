@@ -100,32 +100,32 @@ CMakeFiles/app.dir/src/core/entity/entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/core/entity/entity.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp -o CMakeFiles/app.dir/src/core/entity/entity.cpp.s
 
-CMakeFiles/app.dir/src/utils/draw/draw.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/utils/draw/draw.cpp.o: /home/kyenji/prjcts/KEngine/src/utils/draw/draw.cpp
-CMakeFiles/app.dir/src/utils/draw/draw.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyenji/prjcts/KEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/utils/draw/draw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/utils/draw/draw.cpp.o -MF CMakeFiles/app.dir/src/utils/draw/draw.cpp.o.d -o CMakeFiles/app.dir/src/utils/draw/draw.cpp.o -c /home/kyenji/prjcts/KEngine/src/utils/draw/draw.cpp
+CMakeFiles/app.dir/src/utils/render/render.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/utils/render/render.cpp.o: /home/kyenji/prjcts/KEngine/src/utils/render/render.cpp
+CMakeFiles/app.dir/src/utils/render/render.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyenji/prjcts/KEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/src/utils/render/render.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/utils/render/render.cpp.o -MF CMakeFiles/app.dir/src/utils/render/render.cpp.o.d -o CMakeFiles/app.dir/src/utils/render/render.cpp.o -c /home/kyenji/prjcts/KEngine/src/utils/render/render.cpp
 
-CMakeFiles/app.dir/src/utils/draw/draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/utils/draw/draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyenji/prjcts/KEngine/src/utils/draw/draw.cpp > CMakeFiles/app.dir/src/utils/draw/draw.cpp.i
+CMakeFiles/app.dir/src/utils/render/render.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/utils/render/render.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyenji/prjcts/KEngine/src/utils/render/render.cpp > CMakeFiles/app.dir/src/utils/render/render.cpp.i
 
-CMakeFiles/app.dir/src/utils/draw/draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/utils/draw/draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyenji/prjcts/KEngine/src/utils/draw/draw.cpp -o CMakeFiles/app.dir/src/utils/draw/draw.cpp.s
+CMakeFiles/app.dir/src/utils/render/render.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/utils/render/render.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyenji/prjcts/KEngine/src/utils/render/render.cpp -o CMakeFiles/app.dir/src/utils/render/render.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/src/main.cpp.o" \
 "CMakeFiles/app.dir/src/core/entity/entity.cpp.o" \
-"CMakeFiles/app.dir/src/utils/draw/draw.cpp.o"
+"CMakeFiles/app.dir/src/utils/render/render.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
 app: CMakeFiles/app.dir/src/main.cpp.o
 app: CMakeFiles/app.dir/src/core/entity/entity.cpp.o
-app: CMakeFiles/app.dir/src/utils/draw/draw.cpp.o
+app: CMakeFiles/app.dir/src/utils/render/render.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: CMakeFiles/app.dir/compiler_depend.ts
 app: /usr/lib/libsfml-graphics.so.3.0.2

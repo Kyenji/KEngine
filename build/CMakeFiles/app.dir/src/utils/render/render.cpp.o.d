@@ -1,7 +1,12 @@
-CMakeFiles/app.dir/src/core/entity/entity.cpp.o: \
- /home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp \
+CMakeFiles/app.dir/src/utils/render/render.cpp.o: \
+ /home/kyenji/prjcts/KEngine/src/utils/render/render.cpp \
  /usr/include/stdc-predef.h \
- /home/kyenji/prjcts/KEngine/src/core/entity/entity.h \
+ /home/kyenji/prjcts/KEngine/src/utils/render/render.h \
+ /usr/include/SFML/Graphics/Drawable.hpp \
+ /usr/include/SFML/Graphics/Export.hpp /usr/include/SFML/Config.hpp \
+ /usr/include/SFML/Graphics/RenderWindow.hpp \
+ /usr/include/SFML/Graphics/RenderTarget.hpp \
+ /usr/include/SFML/Graphics/BlendMode.hpp \
  /usr/include/SFML/Graphics/Color.hpp /usr/include/c++/15.2.1/cstdint \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -17,10 +22,7 @@ CMakeFiles/app.dir/src/core/entity/entity.cpp.o: \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/SFML/Graphics/Color.inl \
- /usr/include/SFML/Graphics/Drawable.hpp \
- /usr/include/SFML/Graphics/Export.hpp /usr/include/SFML/Config.hpp \
- /usr/include/SFML/Graphics/RectangleShape.hpp \
- /usr/include/SFML/Graphics/Shape.hpp \
+ /usr/include/SFML/Graphics/CoordinateType.hpp \
  /usr/include/SFML/Graphics/PrimitiveType.hpp \
  /usr/include/SFML/Graphics/Rect.hpp /usr/include/SFML/System/Vector2.hpp \
  /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Angle.hpp \
@@ -53,8 +55,6 @@ CMakeFiles/app.dir/src/core/entity/entity.cpp.o: \
  /usr/include/c++/15.2.1/bits/invoke.h \
  /usr/include/SFML/Graphics/Rect.inl \
  /usr/include/SFML/Graphics/RenderStates.hpp \
- /usr/include/SFML/Graphics/BlendMode.hpp \
- /usr/include/SFML/Graphics/CoordinateType.hpp \
  /usr/include/SFML/Graphics/StencilMode.hpp \
  /usr/include/SFML/Graphics/Transform.hpp /usr/include/c++/15.2.1/array \
  /usr/include/c++/15.2.1/bits/functexcept.h \
@@ -68,9 +68,11 @@ CMakeFiles/app.dir/src/core/entity/entity.cpp.o: \
  /usr/include/c++/15.2.1/bits/predefined_ops.h \
  /usr/include/c++/15.2.1/bit /usr/include/c++/15.2.1/bits/range_access.h \
  /usr/include/SFML/Graphics/Transform.inl /usr/include/c++/15.2.1/cstddef \
- /usr/include/SFML/Graphics/Transformable.hpp \
- /usr/include/SFML/Graphics/VertexArray.hpp \
- /usr/include/SFML/Graphics/Vertex.hpp /usr/include/c++/15.2.1/vector \
+ /usr/include/SFML/Graphics/Vertex.hpp \
+ /usr/include/SFML/Graphics/View.hpp \
+ /usr/include/SFML/Window/ContextSettings.hpp \
+ /usr/include/SFML/Window/VideoMode.hpp \
+ /usr/include/SFML/Window/Export.hpp /usr/include/c++/15.2.1/vector \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/bits/allocator.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
@@ -92,12 +94,7 @@ CMakeFiles/app.dir/src/core/entity/entity.cpp.o: \
  /usr/include/c++/15.2.1/bits/uses_allocator.h \
  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.2.1/tuple /usr/include/c++/15.2.1/bits/ranges_util.h \
- /usr/include/SFML/Graphics/RenderWindow.hpp \
- /usr/include/SFML/Graphics/RenderTarget.hpp \
- /usr/include/SFML/Graphics/View.hpp \
- /usr/include/SFML/Window/ContextSettings.hpp \
- /usr/include/SFML/Window/VideoMode.hpp \
- /usr/include/SFML/Window/Export.hpp /usr/include/SFML/Window/Window.hpp \
+ /usr/include/SFML/Window/Window.hpp \
  /usr/include/SFML/Window/GlResource.hpp /usr/include/c++/15.2.1/memory \
  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \

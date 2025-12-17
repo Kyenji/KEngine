@@ -1,3 +1,5 @@
+#include "core/entity/entity.h"
+#include "utils/render/render.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics/Color.hpp>
 #include <SFML/Graphics/RenderWindow.hpp>

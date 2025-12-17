@@ -177,29 +177,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/utils/draw/draw.o: src/utils/draw/draw.cpp.o
-.PHONY : src/utils/draw/draw.o
+src/utils/render/render.o: src/utils/render/render.cpp.o
+.PHONY : src/utils/render/render.o
 
 # target to build an object file
-src/utils/draw/draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/utils/draw/draw.cpp.o
-.PHONY : src/utils/draw/draw.cpp.o
+src/utils/render/render.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/utils/render/render.cpp.o
+.PHONY : src/utils/render/render.cpp.o
 
-src/utils/draw/draw.i: src/utils/draw/draw.cpp.i
-.PHONY : src/utils/draw/draw.i
+src/utils/render/render.i: src/utils/render/render.cpp.i
+.PHONY : src/utils/render/render.i
 
 # target to preprocess a source file
-src/utils/draw/draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/utils/draw/draw.cpp.i
-.PHONY : src/utils/draw/draw.cpp.i
+src/utils/render/render.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/utils/render/render.cpp.i
+.PHONY : src/utils/render/render.cpp.i
 
-src/utils/draw/draw.s: src/utils/draw/draw.cpp.s
-.PHONY : src/utils/draw/draw.s
+src/utils/render/render.s: src/utils/render/render.cpp.s
+.PHONY : src/utils/render/render.s
 
 # target to generate assembly for a file
-src/utils/draw/draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/utils/draw/draw.cpp.s
-.PHONY : src/utils/draw/draw.cpp.s
+src/utils/render/render.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/utils/render/render.cpp.s
+.PHONY : src/utils/render/render.cpp.s
 
 # Help Target
 help:
@@ -216,9 +216,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/utils/draw/draw.o"
-	@echo "... src/utils/draw/draw.i"
-	@echo "... src/utils/draw/draw.s"
+	@echo "... src/utils/render/render.o"
+	@echo "... src/utils/render/render.i"
+	@echo "... src/utils/render/render.s"
 .PHONY : help
 
 
