@@ -10,8 +10,11 @@ find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System)
 set(SOURCES
     src/main.cpp
     src/core/entity/entity.cpp
+    src/utils/draw/draw.cpp
 )
 
 add_executable(app ${SOURCES})
+
+target_include_directories(app PRIVATE ${CMAKE_SOURCE_DIR}/src)
 
 target_link_libraries(app PRIVATE SFML::Graphics SFML::Window SFML::System)

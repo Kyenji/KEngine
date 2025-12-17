@@ -1,14 +1,20 @@
 [
 {
   "directory": "/home/kyenji/prjcts/KEngine/build",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/app.dir/src/main.cpp.o -c /home/kyenji/prjcts/KEngine/src/main.cpp",
+  "command": "/usr/bin/c++  -I/home/kyenji/prjcts/KEngine/src -std=gnu++20 -o CMakeFiles/app.dir/src/main.cpp.o -c /home/kyenji/prjcts/KEngine/src/main.cpp",
   "file": "/home/kyenji/prjcts/KEngine/src/main.cpp",
   "output": "CMakeFiles/app.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/kyenji/prjcts/KEngine/build",
-  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/app.dir/src/core/entity/entity.cpp.o -c /home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp",
+  "command": "/usr/bin/c++  -I/home/kyenji/prjcts/KEngine/src -std=gnu++20 -o CMakeFiles/app.dir/src/core/entity/entity.cpp.o -c /home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp",
   "file": "/home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp",
   "output": "CMakeFiles/app.dir/src/core/entity/entity.cpp.o"
+},
+{
+  "directory": "/home/kyenji/prjcts/KEngine/build",
+  "command": "/usr/bin/c++  -I/home/kyenji/prjcts/KEngine/src -std=gnu++20 -o CMakeFiles/app.dir/src/utils/draw/draw.cpp.o -c /home/kyenji/prjcts/KEngine/src/utils/draw/draw.cpp",
+  "file": "/home/kyenji/prjcts/KEngine/src/utils/draw/draw.cpp",
+  "output": "CMakeFiles/app.dir/src/utils/draw/draw.cpp.o"
 }
 ]

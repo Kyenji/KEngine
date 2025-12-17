@@ -177,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/utils/draw/draw.o: src/utils/draw/draw.cpp.o
+.PHONY : src/utils/draw/draw.o
+
+# target to build an object file
+src/utils/draw/draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/utils/draw/draw.cpp.o
+.PHONY : src/utils/draw/draw.cpp.o
+
+src/utils/draw/draw.i: src/utils/draw/draw.cpp.i
+.PHONY : src/utils/draw/draw.i
+
+# target to preprocess a source file
+src/utils/draw/draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/utils/draw/draw.cpp.i
+.PHONY : src/utils/draw/draw.cpp.i
+
+src/utils/draw/draw.s: src/utils/draw/draw.cpp.s
+.PHONY : src/utils/draw/draw.s
+
+# target to generate assembly for a file
+src/utils/draw/draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/utils/draw/draw.cpp.s
+.PHONY : src/utils/draw/draw.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/utils/draw/draw.o"
+	@echo "... src/utils/draw/draw.i"
+	@echo "... src/utils/draw/draw.s"
 .PHONY : help
 
 
