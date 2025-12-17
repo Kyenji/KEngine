@@ -2,8 +2,8 @@
 #include <SFML/Graphics/Color.hpp>
 #include <SFML/Graphics/RenderWindow.hpp>
 
-Entity::Entity(float size1, float size2, float posX, float posY, sf::Color color) {
-    entity.setSize({size1, size2});
+Entity::Entity(float width, float height, float posX, float posY, sf::Color color) {
+    entity.setSize({width, height});
     entity.setPosition({posX, posY});
     entity.setFillColor(color);
 }

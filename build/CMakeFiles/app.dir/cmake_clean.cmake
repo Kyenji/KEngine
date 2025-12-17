@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/app.dir/link.d"
-  "CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o"
-  "CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o.d"
+  "CMakeFiles/app.dir/src/core/entity/entity.cpp.o"
+  "CMakeFiles/app.dir/src/core/entity/entity.cpp.o.d"
   "CMakeFiles/app.dir/src/main.cpp.o"
   "CMakeFiles/app.dir/src/main.cpp.o.d"
   "app"

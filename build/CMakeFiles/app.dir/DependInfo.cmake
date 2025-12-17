@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kyenji/prjcts/KEngine/src/Core/Entity/entity.cpp" "CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o" "gcc" "CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o.d"
+  "/home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp" "CMakeFiles/app.dir/src/core/entity/entity.cpp.o" "gcc" "CMakeFiles/app.dir/src/core/entity/entity.cpp.o.d"
   "/home/kyenji/prjcts/KEngine/src/main.cpp" "CMakeFiles/app.dir/src/main.cpp.o" "gcc" "CMakeFiles/app.dir/src/main.cpp.o.d"
   "" "app" "gcc" "CMakeFiles/app.dir/link.d"
   )

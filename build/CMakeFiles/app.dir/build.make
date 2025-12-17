@@ -86,30 +86,30 @@ CMakeFiles/app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyenji/prjcts/KEngine/src/main.cpp -o CMakeFiles/app.dir/src/main.cpp.s
 
-CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o: /home/kyenji/prjcts/KEngine/src/Core/Entity/entity.cpp
-CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyenji/prjcts/KEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o -MF CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o.d -o CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o -c /home/kyenji/prjcts/KEngine/src/Core/Entity/entity.cpp
+CMakeFiles/app.dir/src/core/entity/entity.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/src/core/entity/entity.cpp.o: /home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp
+CMakeFiles/app.dir/src/core/entity/entity.cpp.o: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyenji/prjcts/KEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/src/core/entity/entity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/src/core/entity/entity.cpp.o -MF CMakeFiles/app.dir/src/core/entity/entity.cpp.o.d -o CMakeFiles/app.dir/src/core/entity/entity.cpp.o -c /home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp
 
-CMakeFiles/app.dir/src/Core/Entity/entity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/Core/Entity/entity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyenji/prjcts/KEngine/src/Core/Entity/entity.cpp > CMakeFiles/app.dir/src/Core/Entity/entity.cpp.i
+CMakeFiles/app.dir/src/core/entity/entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/app.dir/src/core/entity/entity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp > CMakeFiles/app.dir/src/core/entity/entity.cpp.i
 
-CMakeFiles/app.dir/src/Core/Entity/entity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/Core/Entity/entity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyenji/prjcts/KEngine/src/Core/Entity/entity.cpp -o CMakeFiles/app.dir/src/Core/Entity/entity.cpp.s
+CMakeFiles/app.dir/src/core/entity/entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/app.dir/src/core/entity/entity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp -o CMakeFiles/app.dir/src/core/entity/entity.cpp.s
 
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/src/main.cpp.o" \
-"CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o"
+"CMakeFiles/app.dir/src/core/entity/entity.cpp.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
 app: CMakeFiles/app.dir/src/main.cpp.o
-app: CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o
+app: CMakeFiles/app.dir/src/core/entity/entity.cpp.o
 app: CMakeFiles/app.dir/build.make
 app: CMakeFiles/app.dir/compiler_depend.ts
 app: /usr/lib/libsfml-graphics.so.3.0.2

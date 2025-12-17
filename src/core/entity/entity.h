@@ -8,7 +8,7 @@
 
 class Entity {
 public:
-    Entity(float size1, float size2, float posX, float posY, sf::Color color = sf::Color::White);
+    Entity(float width, float height, float posX, float posY, sf::Color color = sf::Color::White);
 
     void draw(sf::RenderWindow& window);
     void setColor(sf::Color color);

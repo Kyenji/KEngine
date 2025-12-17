@@ -1,9 +1,7 @@
-CMakeFiles/app.dir/src/main.cpp.o: \
- /home/kyenji/prjcts/KEngine/src/main.cpp /usr/include/stdc-predef.h \
- /usr/include/SFML/Graphics.hpp /usr/include/SFML/Graphics/BlendMode.hpp \
- /usr/include/SFML/Graphics/Export.hpp /usr/include/SFML/Config.hpp \
- /usr/include/SFML/Graphics/CircleShape.hpp \
- /usr/include/SFML/Graphics/Shape.hpp \
+CMakeFiles/app.dir/src/core/entity/entity.cpp.o: \
+ /home/kyenji/prjcts/KEngine/src/core/entity/entity.cpp \
+ /usr/include/stdc-predef.h \
+ /home/kyenji/prjcts/KEngine/src/core/entity/entity.h \
  /usr/include/SFML/Graphics/Color.hpp /usr/include/c++/15.2.1/cstdint \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -19,6 +17,9 @@ CMakeFiles/app.dir/src/main.cpp.o: \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/SFML/Graphics/Color.inl \
+ /usr/include/SFML/Graphics/RectangleShape.hpp \
+ /usr/include/SFML/Graphics/Export.hpp /usr/include/SFML/Config.hpp \
+ /usr/include/SFML/Graphics/Shape.hpp \
  /usr/include/SFML/Graphics/Drawable.hpp \
  /usr/include/SFML/Graphics/PrimitiveType.hpp \
  /usr/include/SFML/Graphics/Rect.hpp /usr/include/SFML/System/Vector2.hpp \
@@ -52,6 +53,7 @@ CMakeFiles/app.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/invoke.h \
  /usr/include/SFML/Graphics/Rect.inl \
  /usr/include/SFML/Graphics/RenderStates.hpp \
+ /usr/include/SFML/Graphics/BlendMode.hpp \
  /usr/include/SFML/Graphics/CoordinateType.hpp \
  /usr/include/SFML/Graphics/StencilMode.hpp \
  /usr/include/SFML/Graphics/Transform.hpp /usr/include/c++/15.2.1/array \
@@ -90,11 +92,13 @@ CMakeFiles/app.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/uses_allocator.h \
  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.2.1/tuple /usr/include/c++/15.2.1/bits/ranges_util.h \
- /usr/include/SFML/Graphics/ConvexShape.hpp \
- /usr/include/SFML/Graphics/Font.hpp /usr/include/SFML/Graphics/Glyph.hpp \
- /usr/include/SFML/Graphics/Texture.hpp \
- /usr/include/SFML/Window/GlResource.hpp \
- /usr/include/SFML/Window/Export.hpp /usr/include/c++/15.2.1/memory \
+ /usr/include/SFML/Graphics/RenderWindow.hpp \
+ /usr/include/SFML/Graphics/RenderTarget.hpp \
+ /usr/include/SFML/Graphics/View.hpp \
+ /usr/include/SFML/Window/ContextSettings.hpp \
+ /usr/include/SFML/Window/VideoMode.hpp \
+ /usr/include/SFML/Window/Export.hpp /usr/include/SFML/Window/Window.hpp \
+ /usr/include/SFML/Window/GlResource.hpp /usr/include/c++/15.2.1/memory \
  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
  /usr/include/c++/15.2.1/bits/align.h \
@@ -211,52 +215,33 @@ CMakeFiles/app.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/ranges_algobase.h \
  /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
  /usr/include/c++/15.2.1/pstl/execution_defs.h \
- /usr/include/c++/15.2.1/filesystem /usr/include/c++/15.2.1/bits/fs_fwd.h \
+ /usr/include/SFML/Window/WindowBase.hpp \
+ /usr/include/SFML/Window/Vulkan.hpp \
+ /usr/include/SFML/Window/WindowEnums.hpp \
+ /usr/include/SFML/Window/WindowHandle.hpp \
+ /usr/include/SFML/System/Time.hpp /usr/include/c++/15.2.1/chrono \
  /usr/include/c++/15.2.1/bits/chrono.h /usr/include/c++/15.2.1/ratio \
  /usr/include/c++/15.2.1/limits /usr/include/c++/15.2.1/ctime \
  /usr/include/c++/15.2.1/bits/parse_numbers.h \
- /usr/include/c++/15.2.1/bits/fs_path.h /usr/include/c++/15.2.1/locale \
+ /usr/include/c++/15.2.1/sstream /usr/include/c++/15.2.1/istream \
+ /usr/include/c++/15.2.1/ostream /usr/include/c++/15.2.1/bits/ostream.tcc \
+ /usr/include/c++/15.2.1/bits/istream.tcc \
+ /usr/include/c++/15.2.1/bits/sstream.tcc \
+ /usr/include/c++/15.2.1/bits/stl_algo.h \
+ /usr/include/c++/15.2.1/bits/algorithmfwd.h \
+ /usr/include/c++/15.2.1/bits/stl_heap.h \
+ /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
+ /usr/include/c++/15.2.1/bits/chrono_io.h /usr/include/c++/15.2.1/iomanip \
+ /usr/include/c++/15.2.1/locale \
  /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/15.2.1/bits/codecvt.h \
  /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
  /usr/include/c++/15.2.1/bits/locale_conv.h \
- /usr/include/c++/15.2.1/iomanip \
  /usr/include/c++/15.2.1/bits/quoted_string.h \
- /usr/include/c++/15.2.1/sstream /usr/include/c++/15.2.1/istream \
- /usr/include/c++/15.2.1/ostream /usr/include/c++/15.2.1/bits/ostream.tcc \
- /usr/include/c++/15.2.1/bits/istream.tcc \
- /usr/include/c++/15.2.1/bits/sstream.tcc /usr/include/c++/15.2.1/codecvt \
- /usr/include/c++/15.2.1/bits/fs_dir.h \
- /usr/include/c++/15.2.1/bits/fs_ops.h \
- /usr/include/c++/15.2.1/unordered_map \
- /usr/include/c++/15.2.1/bits/unordered_map.h \
- /usr/include/c++/15.2.1/bits/hashtable.h \
- /usr/include/c++/15.2.1/bits/hashtable_policy.h \
- /usr/include/c++/15.2.1/bits/node_handle.h \
- /usr/include/c++/15.2.1/bits/erase_if.h \
- /usr/include/SFML/Graphics/Image.hpp \
- /usr/include/SFML/Graphics/RectangleShape.hpp \
- /usr/include/SFML/Graphics/RenderTarget.hpp \
- /usr/include/SFML/Graphics/View.hpp \
- /usr/include/SFML/Graphics/RenderTexture.hpp \
- /usr/include/SFML/Window/ContextSettings.hpp \
- /usr/include/SFML/Graphics/RenderWindow.hpp \
- /usr/include/SFML/Window/VideoMode.hpp \
- /usr/include/SFML/Window/Window.hpp \
- /usr/include/SFML/Window/WindowBase.hpp \
- /usr/include/SFML/Window/Vulkan.hpp \
- /usr/include/SFML/Window/WindowEnums.hpp \
- /usr/include/SFML/Window/WindowHandle.hpp \
- /usr/include/SFML/System/Time.hpp /usr/include/c++/15.2.1/chrono \
- /usr/include/c++/15.2.1/bits/stl_algo.h \
- /usr/include/c++/15.2.1/bits/algorithmfwd.h \
- /usr/include/c++/15.2.1/bits/stl_heap.h \
- /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
- /usr/include/c++/15.2.1/bits/chrono_io.h /usr/include/c++/15.2.1/format \
- /usr/include/c++/15.2.1/charconv /usr/include/c++/15.2.1/span \
- /usr/include/c++/15.2.1/bits/monostate.h \
+ /usr/include/c++/15.2.1/format /usr/include/c++/15.2.1/charconv \
+ /usr/include/c++/15.2.1/span /usr/include/c++/15.2.1/bits/monostate.h \
  /usr/include/c++/15.2.1/bits/formatfwd.h \
  /usr/include/c++/15.2.1/bits/unicode.h \
  /usr/include/c++/15.2.1/bits/unicode-data.h \
@@ -272,16 +257,4 @@ CMakeFiles/app.dir/src/main.cpp.o: \
  /usr/include/SFML/System/Vector3.inl /usr/include/c++/15.2.1/variant \
  /usr/include/SFML/Window/Event.inl /usr/include/c++/15.2.1/utility \
  /usr/include/c++/15.2.1/bits/stl_relops.h \
- /usr/include/SFML/System/Clock.hpp /usr/include/SFML/Graphics/Shader.hpp \
- /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
- /usr/include/SFML/Graphics/Sprite.hpp \
- /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/SFML/Window.hpp \
- /usr/include/SFML/Window/Clipboard.hpp \
- /usr/include/SFML/Window/Context.hpp /usr/include/SFML/Window/Cursor.hpp \
- /usr/include/SFML/Window/Touch.hpp /usr/include/SFML/System.hpp \
- /usr/include/SFML/System/Err.hpp /usr/include/SFML/System/Exception.hpp \
- /usr/include/SFML/System/FileInputStream.hpp \
- /usr/include/SFML/System/InputStream.hpp \
- /usr/include/SFML/System/MemoryInputStream.hpp \
- /usr/include/SFML/System/Sleep.hpp
+ /usr/include/SFML/System/Clock.hpp

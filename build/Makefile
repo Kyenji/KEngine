@@ -129,29 +129,29 @@ app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 .PHONY : app/fast
 
-src/Core/Entity/entity.o: src/Core/Entity/entity.cpp.o
-.PHONY : src/Core/Entity/entity.o
+src/core/entity/entity.o: src/core/entity/entity.cpp.o
+.PHONY : src/core/entity/entity.o
 
 # target to build an object file
-src/Core/Entity/entity.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Core/Entity/entity.cpp.o
-.PHONY : src/Core/Entity/entity.cpp.o
+src/core/entity/entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/core/entity/entity.cpp.o
+.PHONY : src/core/entity/entity.cpp.o
 
-src/Core/Entity/entity.i: src/Core/Entity/entity.cpp.i
-.PHONY : src/Core/Entity/entity.i
+src/core/entity/entity.i: src/core/entity/entity.cpp.i
+.PHONY : src/core/entity/entity.i
 
 # target to preprocess a source file
-src/Core/Entity/entity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Core/Entity/entity.cpp.i
-.PHONY : src/Core/Entity/entity.cpp.i
+src/core/entity/entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/core/entity/entity.cpp.i
+.PHONY : src/core/entity/entity.cpp.i
 
-src/Core/Entity/entity.s: src/Core/Entity/entity.cpp.s
-.PHONY : src/Core/Entity/entity.s
+src/core/entity/entity.s: src/core/entity/entity.cpp.s
+.PHONY : src/core/entity/entity.s
 
 # target to generate assembly for a file
-src/Core/Entity/entity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/Core/Entity/entity.cpp.s
-.PHONY : src/Core/Entity/entity.cpp.s
+src/core/entity/entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/src/core/entity/entity.cpp.s
+.PHONY : src/core/entity/entity.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... app"
-	@echo "... src/Core/Entity/entity.o"
-	@echo "... src/Core/Entity/entity.i"
-	@echo "... src/Core/Entity/entity.s"
+	@echo "... src/core/entity/entity.o"
+	@echo "... src/core/entity/entity.i"
+	@echo "... src/core/entity/entity.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
